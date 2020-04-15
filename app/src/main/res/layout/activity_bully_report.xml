@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".BullyReportActivity">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="15dp"
+                android:paddingTop="25dp"
+                android:paddingRight="15dp"
+                android:paddingBottom="10dp">
+
+                <ImageView
+                    android:id="@+id/back"
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:src="@drawable/ic_arrow_back_black_24dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="15dp"
+                    android:layout_weight="2"
+                    android:gravity="center|start"
+                    android:textSize="19sp"
+                    android:textStyle="bold"
+                    android:text="Bully Report Detail"
+                    android:textColor="@color/black"/>
+                <ImageView
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:src="@drawable/ic_history_black_24dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Victim"
+                    android:layout_marginLeft="25dp"
+                    android:textStyle="bold"
+                    android:layout_weight="1"
+                    android:textColor="#444444"
+                    android:layout_marginTop="20dp"
+                    android:textSize="14sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Bully"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="25dp"
+                    android:textStyle="bold"
+                    android:textColor="#444444"
+                    android:layout_marginTop="20dp"
+                    android:textSize="14sp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Silvya"
+                    android:layout_marginLeft="25dp"
+                    android:layout_weight="1"
+                    android:textColor="#444444"
+                    android:layout_marginTop="10dp"
+                    android:textSize="13sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Toilet"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="25dp"
+                    android:textColor="#444444"
+                    android:layout_marginTop="10dp"
+                    android:textSize="13sp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Time"
+                    android:layout_marginLeft="25dp"
+                    android:textStyle="bold"
+                    android:layout_weight="1"
+                    android:textColor="#444444"
+                    android:layout_marginTop="15dp"
+                    android:textSize="14sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Location"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="25dp"
+                    android:textStyle="bold"
+                    android:textColor="#444444"
+                    android:layout_marginTop="15dp"
+                    android:textSize="14sp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="11 March 2020, 13:01"
+                    android:layout_marginLeft="25dp"
+                    android:layout_weight="1"
+                    android:textColor="#444444"
+                    android:layout_marginTop="10dp"
+                    android:textSize="13sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Toilet"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="25dp"
+                    android:textColor="#444444"
+                    android:layout_marginTop="10dp"
+                    android:textSize="13sp"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Witness"
+                android:layout_marginLeft="25dp"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:textColor="#444444"
+                android:layout_marginTop="20dp"
+                android:textSize="15sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Arvian, Dailey, Louna, Marley, Axera, Drienda"
+                android:layout_marginLeft="25dp"
+                android:layout_weight="1"
+                android:textColor="#444444"
+                android:layout_marginTop="10dp"
+                android:textSize="13sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Detail of the bullying"
+                android:layout_marginLeft="25dp"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:textColor="#444444"
+                android:layout_marginTop="20dp"
+                android:textSize="15sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Most of us have all experienced bullying or teasing in any form, at some point in our lifes. Especially as kids, maybe your schoolmate called you as a ‘nerd’."
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="75dp"
+                android:layout_weight="1"
+                android:textColor="#444444"
+                android:layout_marginTop="10dp"
+                android:textSize="13sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Status"
+                android:layout_marginLeft="25dp"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:textColor="#444444"
+                android:layout_marginTop="20dp"
+                android:textSize="15sp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:padding="5dp"
+                android:layout_marginTop="10dp">
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="10sp"
+                    android:textAllCaps="false"
+                    android:textColor="#828282"
+                    android:background="@drawable/rounded_dark_unfill"
+                    android:minHeight="0dp"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:text="Investigating.."/>
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="10sp"
+                    android:textAllCaps="false"
+                    android:minHeight="0dp"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/rounded_blu_confirmed"
+                    android:text="Confirmed"/>
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="10sp"
+                    android:textAllCaps="false"
+                    android:minHeight="0dp"
+                    android:textColor="#F96300"
+                    android:background="@drawable/rounded_orange_button"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="On Action"/>
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="10sp"
+                    android:textAllCaps="false"
+                    android:minHeight="0dp"
+                    android:textColor="#219653"
+                    android:paddingTop="5dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/rounded_green"
+                    android:paddingBottom="5dp"
+                    android:text="Solved"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Details of action"
+                android:layout_marginLeft="25dp"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:textColor="#444444"
+                android:layout_marginTop="20dp"
+                android:textSize="15sp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:elevation="2dp"
+                android:background="@drawable/border_black_line"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:hint="Enter the action detail..."
+                android:padding="10dp"
+                android:textSize="12sp"
+                android:layout_marginRight="25dp"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingBottom="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/bt_cancel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/rounded_white"
+                    android:drawablePadding="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp"
+                    android:minHeight="0dp"
+                    android:paddingLeft="25dp"
+                    android:paddingTop="10dp"
+                    android:paddingRight="25dp"
+                    android:elevation="2dp"
+                    android:paddingBottom="10dp"
+                    android:text="Cancel"
+                    android:textColor="#444"
+                    android:textSize="13dp" />
+
+                <Button
+                    android:id="@+id/bt_submit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/rounded_orange_fill"
+                    android:drawablePadding="10dp"
+                    android:minHeight="0dp"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="10dp"
+                    android:paddingRight="20dp"
+                    android:paddingBottom="10dp"
+                    android:text="Report"
+                    android:textColor="@color/white"
+                    android:textSize="13dp" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

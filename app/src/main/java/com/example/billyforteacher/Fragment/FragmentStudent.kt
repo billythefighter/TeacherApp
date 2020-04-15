@@ -10,30 +10,24 @@ import androidx.fragment.app.Fragment
 import com.example.billyforteacher.BullyReportActivity
 import com.example.billyforteacher.R
 
-
-class FragmentHome : Fragment() {
+class FragmentStudent : Fragment() {
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
         // Inflate the layout for this fragment
-        val v: View = inflater.inflate(R.layout.fragment_home, container, false)
-
-        val reportBully: LinearLayout = v.findViewById<View>(R.id.list_status) as LinearLayout
-        reportBully?.setOnClickListener {
-            val intent = Intent (activity, BullyReportActivity::class.java)
-            startActivity(intent)
-        }
+        val v: View = inflater.inflate(R.layout.fragment_student, container, false)
 
         return v
     }
 
     companion object {
-        fun newInstance(): FragmentHome{
-            val fragment = FragmentHome()
+        fun newInstance(): FragmentStudent{
+            val fragment = FragmentStudent()
             val args = Bundle()
             fragment.arguments = args
             return fragment
         }
 
     }
+
 }
