@@ -41,7 +41,7 @@
                     android:paddingLeft="15dp"
                     android:layout_marginLeft="25dp"
                     android:textSize="13sp"
-                    android:background="@drawable/rounded_edit_text"
+                    android:background="@drawable/rounded_search_white"
                     android:hint="Search Student Name..."/>
                 <Button
                     android:layout_width="wrap_content"
@@ -83,9 +83,837 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
-                android:background="@color/white">
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="15dp"
+                android:padding="15dp"
+                android:elevation="2dp"
+                android:background="@drawable/rounded_white">
 
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp">
 
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/profile_imge"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="10dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="Abigail Binary"
+                            android:textStyle="bold"
+                            android:textSize="14sp"
+                            android:layout_weight="1"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="bigail"
+                            android:textSize="12sp"
+                            android:layout_weight="1"/>
+                        
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="1 Case"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:textSize="12sp"
+                        android:textColor="#0686B1"
+                        android:layout_weight="1"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Student data"
+                        android:textStyle="bold"
+                        android:textSize="12sp"
+                        android:textColor="#F96300"
+                        android:gravity="center"
+                        android:layout_weight="1"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/profile_imge"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="10dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="Abigail Binary"
+                            android:textStyle="bold"
+                            android:textSize="14sp"
+                            android:layout_weight="1"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="bigail"
+                            android:textSize="12sp"
+                            android:layout_weight="1"/>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="1 Case"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:textSize="12sp"
+                        android:textColor="#0686B1"
+                        android:layout_weight="1"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Student data"
+                        android:textStyle="bold"
+                        android:textSize="12sp"
+                        android:textColor="#F96300"
+                        android:gravity="center"
+                        android:layout_weight="1"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/profile_imge"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="10dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="Abigail Binary"
+                            android:textStyle="bold"
+                            android:textSize="14sp"
+                            android:layout_weight="1"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="bigail"
+                            android:textSize="12sp"
+                            android:layout_weight="1"/>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="1 Case"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:textSize="12sp"
+                        android:textColor="#0686B1"
+                        android:layout_weight="1"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Student data"
+                        android:textStyle="bold"
+                        android:textSize="12sp"
+                        android:textColor="#F96300"
+                        android:gravity="center"
+                        android:layout_weight="1"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/profile_imge"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="10dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="Abigail Binary"
+                            android:textStyle="bold"
+                            android:textSize="14sp"
+                            android:layout_weight="1"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="bigail"
+                            android:textSize="12sp"
+                            android:layout_weight="1"/>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="1 Case"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:textSize="12sp"
+                        android:textColor="#0686B1"
+                        android:layout_weight="1"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Student data"
+                        android:textStyle="bold"
+                        android:textSize="12sp"
+                        android:textColor="#F96300"
+                        android:gravity="center"
+                        android:layout_weight="1"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/profile_imge"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="10dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="Abigail Binary"
+                            android:textStyle="bold"
+                            android:textSize="14sp"
+                            android:layout_weight="1"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="bigail"
+                            android:textSize="12sp"
+                            android:layout_weight="1"/>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="1 Case"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:textSize="12sp"
+                        android:textColor="#0686B1"
+                        android:layout_weight="1"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Student data"
+                        android:textStyle="bold"
+                        android:textSize="12sp"
+                        android:textColor="#F96300"
+                        android:gravity="center"
+                        android:layout_weight="1"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/profile_imge"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="10dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="Abigail Binary"
+                            android:textStyle="bold"
+                            android:textSize="14sp"
+                            android:layout_weight="1"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="bigail"
+                            android:textSize="12sp"
+                            android:layout_weight="1"/>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="1 Case"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:textSize="12sp"
+                        android:textColor="#0686B1"
+                        android:layout_weight="1"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Student data"
+                        android:textStyle="bold"
+                        android:textSize="12sp"
+                        android:textColor="#F96300"
+                        android:gravity="center"
+                        android:layout_weight="1"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/profile_imge"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="10dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="Abigail Binary"
+                            android:textStyle="bold"
+                            android:textSize="14sp"
+                            android:layout_weight="1"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="bigail"
+                            android:textSize="12sp"
+                            android:layout_weight="1"/>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="1 Case"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:textSize="12sp"
+                        android:textColor="#0686B1"
+                        android:layout_weight="1"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Student data"
+                        android:textStyle="bold"
+                        android:textSize="12sp"
+                        android:textColor="#F96300"
+                        android:gravity="center"
+                        android:layout_weight="1"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/profile_imge"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="10dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="Abigail Binary"
+                            android:textStyle="bold"
+                            android:textSize="14sp"
+                            android:layout_weight="1"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="bigail"
+                            android:textSize="12sp"
+                            android:layout_weight="1"/>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="1 Case"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:textSize="12sp"
+                        android:textColor="#0686B1"
+                        android:layout_weight="1"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Student data"
+                        android:textStyle="bold"
+                        android:textSize="12sp"
+                        android:textColor="#F96300"
+                        android:gravity="center"
+                        android:layout_weight="1"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/profile_imge"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="10dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="Abigail Binary"
+                            android:textStyle="bold"
+                            android:textSize="14sp"
+                            android:layout_weight="1"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="bigail"
+                            android:textSize="12sp"
+                            android:layout_weight="1"/>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="1 Case"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:textSize="12sp"
+                        android:textColor="#0686B1"
+                        android:layout_weight="1"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Student data"
+                        android:textStyle="bold"
+                        android:textSize="12sp"
+                        android:textColor="#F96300"
+                        android:gravity="center"
+                        android:layout_weight="1"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/profile_imge"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="10dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="Abigail Binary"
+                            android:textStyle="bold"
+                            android:textSize="14sp"
+                            android:layout_weight="1"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="bigail"
+                            android:textSize="12sp"
+                            android:layout_weight="1"/>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="1 Case"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:textSize="12sp"
+                        android:textColor="#0686B1"
+                        android:layout_weight="1"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Student data"
+                        android:textStyle="bold"
+                        android:textSize="12sp"
+                        android:textColor="#F96300"
+                        android:gravity="center"
+                        android:layout_weight="1"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/profile_imge"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="10dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="Abigail Binary"
+                            android:textStyle="bold"
+                            android:textSize="14sp"
+                            android:layout_weight="1"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="bigail"
+                            android:textSize="12sp"
+                            android:layout_weight="1"/>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="1 Case"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:textSize="12sp"
+                        android:textColor="#0686B1"
+                        android:layout_weight="1"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Student data"
+                        android:textStyle="bold"
+                        android:textSize="12sp"
+                        android:textColor="#F96300"
+                        android:gravity="center"
+                        android:layout_weight="1"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/profile_imge"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="10dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="Abigail Binary"
+                            android:textStyle="bold"
+                            android:textSize="14sp"
+                            android:layout_weight="1"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="bigail"
+                            android:textSize="12sp"
+                            android:layout_weight="1"/>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="1 Case"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:textSize="12sp"
+                        android:textColor="#0686B1"
+                        android:layout_weight="1"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Student data"
+                        android:textStyle="bold"
+                        android:textSize="12sp"
+                        android:textColor="#F96300"
+                        android:gravity="center"
+                        android:layout_weight="1"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/profile_imge"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="10dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="Abigail Binary"
+                            android:textStyle="bold"
+                            android:textSize="14sp"
+                            android:layout_weight="1"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="bigail"
+                            android:textSize="12sp"
+                            android:layout_weight="1"/>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="1 Case"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:textSize="12sp"
+                        android:textColor="#0686B1"
+                        android:layout_weight="1"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Student data"
+                        android:textStyle="bold"
+                        android:textSize="12sp"
+                        android:textColor="#F96300"
+                        android:gravity="center"
+                        android:layout_weight="1"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/profile_imge"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="10dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="Abigail Binary"
+                            android:textStyle="bold"
+                            android:textSize="14sp"
+                            android:layout_weight="1"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="bigail"
+                            android:textSize="12sp"
+                            android:layout_weight="1"/>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="1 Case"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:textSize="12sp"
+                        android:textColor="#0686B1"
+                        android:layout_weight="1"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Student data"
+                        android:textStyle="bold"
+                        android:textSize="12sp"
+                        android:textColor="#F96300"
+                        android:gravity="center"
+                        android:layout_weight="1"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/profile_imge"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="10dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="Abigail Binary"
+                            android:textStyle="bold"
+                            android:textSize="14sp"
+                            android:layout_weight="1"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="bigail"
+                            android:textSize="12sp"
+                            android:layout_weight="1"/>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="1 Case"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:textSize="12sp"
+                        android:textColor="#0686B1"
+                        android:layout_weight="1"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Student data"
+                        android:textStyle="bold"
+                        android:textSize="12sp"
+                        android:textColor="#F96300"
+                        android:gravity="center"
+                        android:layout_weight="1"/>
+
+                </LinearLayout>
 
             </LinearLayout>
 
