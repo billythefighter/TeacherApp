@@ -3,6 +3,7 @@ package com.example.billyforteacher
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.fragment.app.Fragment
+import com.example.billyforteacher.Fragment.FragmentForum
 import com.example.billyforteacher.Fragment.FragmentHome
 import com.example.billyforteacher.Fragment.FragmentStudent
 import com.google.android.material.bottomnavigation.BottomNavigationView
@@ -30,6 +31,11 @@ class HomeActivity : AppCompatActivity() {
             }
             R.id.nav_student -> {
                 val fragment = FragmentStudent.newInstance()
+                addFragment(fragment)
+                return@OnNavigationItemSelectedListener true
+            }
+            R.id.nav_forum -> {
+                val fragment = FragmentForum.newInstance()
                 addFragment(fragment)
                 return@OnNavigationItemSelectedListener true
             }
